@@ -1,0 +1,30 @@
+# ninja log v5
+24	485	718200512	CMakeFiles/gles3jni.dir/android_fopen.c.o	92329aaa5071279d
+1	1127	718200512	CMakeFiles/gles3jni.dir/gles3jni.cpp.o	adee1571c944feca
+9	1139	718200512	CMakeFiles/gles3jni.dir/RendererES3.cpp.o	23e7609c887dff45
+15	1163	718200512	CMakeFiles/gles3jni.dir/RendererES2.cpp.o	3766c4c834ad1e07
+486	1270	718200512	CMakeFiles/gles3jni.dir/Common/Source/esShader.cpp.o	9e1bf49fc8f0af86
+97	1491	718200512	CMakeFiles/gles3jni.dir/Common/Source/Bench.cpp.o	99ea35996cd032ed
+1129	1717	718200513	CMakeFiles/gles3jni.dir/Common/Source/esTransform.cpp.o	d1c165a8d87337f7
+1718	2107	718200513	CMakeFiles/gles3jni.dir/utils/Random.cpp.o	ba2eeacfdb798250
+34	2464	718200513	CMakeFiles/gles3jni.dir/LightGrid.cpp.o	37cd7dfda7727f33
+1139	2563	718200514	CMakeFiles/gles3jni.dir/Common/Source/Timer.cpp.o	90cc0280f48ed584
+1493	3222	718200514	CMakeFiles/gles3jni.dir/utils/CheckGLError.cpp.o	47e8434c7a3f5f05
+2563	3249	718200514	CMakeFiles/gles3jni.dir/external/libktx/lib/errstr.c.o	fda37ff7e51cc7ef
+2107	3508	718200514	CMakeFiles/gles3jni.dir/utils/SimpleCamera.cpp.o	a9469be6cfcf00b0
+3223	3545	718200515	CMakeFiles/gles3jni.dir/external/libktx/lib/checkheader.c.o	fed68f60a5cfe129
+3545	4054	718200515	CMakeFiles/gles3jni.dir/external/libktx/lib/etcunpack.cxx.o	b5661b67546015ab
+87	4097	718200513	CMakeFiles/gles3jni.dir/aabb.cpp.o	131bbddfbc40fe24
+47	4144	718200513	CMakeFiles/gles3jni.dir/Renderer_Tiled_Shading.cpp.o	fabe808a229eea17
+4054	4259	718200515	CMakeFiles/gles3jni.dir/external/libktx/lib/swap.c.o	de32d4e55f7b8b70
+70	4381	718200515	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	3300390b7a01994d
+3508	4400	718200515	CMakeFiles/gles3jni.dir/external/libktx/lib/hashtable.c.o	4ed2c52eee7186fd
+4144	4602	718200516	CMakeFiles/gles3jni.dir/external/libktx/lib/loader.c.o	3308424a0299a17d
+4098	4617	718200516	CMakeFiles/gles3jni.dir/external/libktx/lib/writer.c.o	ba50051c53c45740
+1163	4660	718200516	CMakeFiles/gles3jni.dir/Common/Source/Renderer.cpp.o	26f62f06e719433c
+2466	4780	718200516	CMakeFiles/gles3jni.dir/utils/ComboShader.cpp.o	fb50a39339cd741a
+1271	4798	718200516	CMakeFiles/gles3jni.dir/Common/Source/model_obj.cpp.o	4a28bd004cd1e178
+79	4833	718200516	CMakeFiles/gles3jni.dir/OBJModel.cpp.o	59253b5991c2724e
+4260	4920	718200516	CMakeFiles/gles3jni.dir/external/libktx/lib/etcdec.cxx.o	25fd135b92527579
+3249	5684	718200517	CMakeFiles/gles3jni.dir/utils/SimpleShader.cpp.o	e6a48822b2eace0
+5684	5994	718200517	C:/Users/PC/Desktop/asd/ttt/gles3jni (5)/app/build/intermediates/cxx/Debug/656s6t1p/obj/armeabi-v7a/libgles3jni.so	42384bb4aa0d705b

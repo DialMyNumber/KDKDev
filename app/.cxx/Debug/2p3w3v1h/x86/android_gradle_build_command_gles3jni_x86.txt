@@ -1,0 +1,7 @@
+Executable : /Users/moonjeongho/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/moonjeongho/Downloads/gles3jni (5)/app/.cxx/Debug/2p3w3v1h/x86
+gles3jni
+jvmArgs : 
+

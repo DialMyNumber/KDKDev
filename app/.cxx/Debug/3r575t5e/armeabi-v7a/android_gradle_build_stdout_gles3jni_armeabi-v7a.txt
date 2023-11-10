@@ -1,0 +1,528 @@
+ninja: Entering directory `C:\Users\JY\Downloads\gles3jni (5)\app\.cxx\Debug\3r575t5e\armeabi-v7a'
+[1/29] Building C object CMakeFiles/gles3jni.dir/android_fopen.c.o
+[2/29] Building CXX object CMakeFiles/gles3jni.dir/RendererES2.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/RendererES2.cpp:20:19: warning: unused variable 'VERTEX_SHADER' [-Wunused-const-variable]
+static const char VERTEX_SHADER[] =
+                  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/RendererES2.cpp:32:19: warning: unused variable 'FRAGMENT_SHADER' [-Wunused-const-variable]
+static const char FRAGMENT_SHADER[] =
+                  ^
+2 warnings generated.
+[3/29] Building CXX object CMakeFiles/gles3jni.dir/RendererES3.cpp.o
+[4/29] Building CXX object CMakeFiles/gles3jni.dir/gles3jni.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/gles3jni.cpp:356:18: warning: unused function 'gl3stubInit' [-Wunused-function]
+static GLboolean gl3stubInit() {
+                 ^
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/gles3jni.cpp:22:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/gles3jni.h:112:11: warning: private field 'mScale' is not used [-Wunused-private-field]
+    float mScale[2];
+          ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/gles3jni.h:113:11: warning: private field 'mAngularVelocity' is not used [-Wunused-private-field]
+    float mAngularVelocity[MAX_INSTANCES];
+          ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/gles3jni.h:115:11: warning: private field 'mAngles' is not used [-Wunused-private-field]
+    float mAngles[MAX_INSTANCES];
+          ^
+4 warnings generated.
+[5/29] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/esShader.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/esShader.cpp:128:10: warning: unused variable 'linked' [-Wunused-variable]
+   GLint linked;
+         ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/esShader.cpp:427:10: warning: unused variable 'linked' [-Wunused-variable]
+   GLint linked;
+         ^
+2 warnings generated.
+[6/29] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/esTransform.cpp.o
+[7/29] Building CXX object CMakeFiles/gles3jni.dir/utils/Random.cpp.o
+[8/29] Building C object CMakeFiles/gles3jni.dir/external/libktx/lib/errstr.c.o
+[9/29] Building C object CMakeFiles/gles3jni.dir/external/libktx/lib/checkheader.c.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/checkheader.c:190:29: warning: comparison of function 'glCompressedTexImage3D' equal to a null pointer is always false [-Wtautological-pointer-compare]
+                ((texinfo->compressed && (glCompressedTexImage3D == NULL)) ||
+                                          ^~~~~~~~~~~~~~~~~~~~~~    ~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/checkheader.c:190:29: note: prefix with the address-of operator to silence this warning
+                ((texinfo->compressed && (glCompressedTexImage3D == NULL)) ||
+                                          ^
+                                          &
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/checkheader.c:191:30: warning: comparison of function 'glTexImage3D' equal to a null pointer is always false [-Wtautological-pointer-compare]
+                 (!texinfo->compressed && (glTexImage3D == NULL))))
+                                           ^~~~~~~~~~~~    ~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/checkheader.c:191:30: note: prefix with the address-of operator to silence this warning
+                 (!texinfo->compressed && (glTexImage3D == NULL))))
+                                           ^
+                                           &
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/checkheader.c:92:31: warning: overlapping comparisons always evaluate to true [-Wtautological-overlap-compare]
+                if (header->glTypeSize != 1 ||
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^~
+3 warnings generated.
+[10/29] Building C object CMakeFiles/gles3jni.dir/external/libktx/lib/hashtable.c.o
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/hashtable.c:50:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/uthash.h:62:10: warning: non-portable path to file '<IntTypes.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <inttypes.h>   /* uint32_t */
+         ^~~~~~~~~~~~
+         <IntTypes.h>
+1 warning generated.
+[11/29] Building C object CMakeFiles/gles3jni.dir/external/libktx/lib/swap.c.o
+[12/29] Building C object CMakeFiles/gles3jni.dir/external/libktx/lib/loader.c.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:168:13: warning: passing 'const GLubyte *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strstr(glGetString(GL_VERSION), "GL ES") != NULL)
+                   ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:112:26: note: passing argument to parameter '__haystack' here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+                         ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:176:11: warning: passing 'const GLubyte *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        sscanf(glGetString(GL_VERSION), "OpenGL ES %d.%d ", &majorVersion, &minorVersion);
+                               ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\stdio.h:138:24: note: passing argument to parameter '__s' here
+int sscanf(const char* __s, const char* __fmt, ...) __scanflike(2, 3);
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:178:11: warning: passing 'const GLubyte *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        sscanf(glGetString(GL_VERSION), "OpenGL %d.%d ", &majorVersion, &minorVersion);
+                               ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\stdio.h:138:24: note: passing argument to parameter '__s' here
+int sscanf(const char* __s, const char* __fmt, ...) __scanflike(2, 3);
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:189:14: warning: passing 'const GLubyte *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strstr(glGetString(GL_EXTENSIONS), "GL_OES_required_internalformat") != NULL) {
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:112:26: note: passing argument to parameter '__haystack' here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+                         ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:208:35: warning: passing 'const GLubyte *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        if (majorVersion < 2 && strstr(glGetString(GL_EXTENSIONS), "GL_EXT_texture_sRGB") == NULL) {
+                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:112:26: note: passing argument to parameter '__haystack' here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+                         ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:215:22: warning: passing 'const GLubyte *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        } else if (strstr(glGetString(GL_EXTENSIONS), "GL_ARB_texture_rg") != NULL) {
+                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:112:26: note: passing argument to parameter '__haystack' here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+                         ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:483:34: warning: comparison of function 'glGenerateMipmap' equal to a null pointer is always false [-Wtautological-pointer-compare]
+        if (texinfo.generateMipmaps && (glGenerateMipmap == NULL)) {
+                                        ^~~~~~~~~~~~~~~~    ~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:483:34: note: prefix with the address-of operator to silence this warning
+        if (texinfo.generateMipmaps && (glGenerateMipmap == NULL)) {
+                                        ^
+                                        &
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:618:9: warning: logical not is only applied to the left hand side of this bitwise operator [-Wlogical-not-parentheses]
+                                if (!sizedFormats & _NON_LEGACY_FORMATS) {
+                                    ^             ~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:618:9: note: add parentheses after the '!' to evaluate the bitwise operator first
+                                if (!sizedFormats & _NON_LEGACY_FORMATS) {
+                                    ^
+                                     (                                 )
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:618:9: note: add parentheses around left hand side expression to silence this warning
+                                if (!sizedFormats & _NON_LEGACY_FORMATS) {
+                                    ^
+                                    (            )
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:651:34: warning: address of function 'glGenerateMipmap' will always evaluate to 'true' [-Wpointer-bool-conversion]
+                if (texinfo.generateMipmaps && glGenerateMipmap) {
+                                            ~~ ^~~~~~~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/loader.c:651:34: note: prefix with the address-of operator to silence this warning
+                if (texinfo.generateMipmaps && glGenerateMipmap) {
+                                               ^
+                                               &
+9 warnings generated.
+[13/29] Building CXX object CMakeFiles/gles3jni.dir/external/libktx/lib/etcunpack.cxx.o
+[14/29] Building CXX object CMakeFiles/gles3jni.dir/utils/SimpleCamera.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleCamera.cpp:26:10: warning: non-portable path to file '"Rendering.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "rendering.h"
+         ^~~~~~~~~~~~~
+         "Rendering.h"
+1 warning generated.
+[15/29] Building C object CMakeFiles/gles3jni.dir/external/libktx/lib/writer.c.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/writer.c:100:22: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        KTX_header header = KTX_IDENTIFIER_REF;
+                            ^~~~~~~~~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/ktxint.h:64:31: note: expanded from macro 'KTX_IDENTIFIER_REF'
+#define KTX_IDENTIFIER_REF  { 0xAB, 0x4B, 0x54, 0x58, 0x20, 0x31, 0x31, 0xBB, 0x0D, 0x0A, 0x1A, 0x0A }
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/writer.c:239:15: warning: passing 'GLuint *' (aka 'unsigned int *') to parameter of type 'GLint *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                      &elementBytes);
+                                                                      ^~~~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/writer.c:55:59: note: passing argument to parameter 'elementBytes' here
+static GLint groupSize(GLenum format, GLenum type, GLint* elementBytes);
+                                                          ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/writer.c:260:4: warning: '/*' within block comment [-Wcomment]
+                        /*     packedRowBytes *= ceil((groupBytes * width) / KTX_GL_UNPACK_ALIGNMENT);
+                        ^
+3 warnings generated.
+[16/29] Building CXX object CMakeFiles/gles3jni.dir/Renderer_Tiled_Shading.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Renderer_Tiled_Shading.cpp:46:12: warning: private field 'mProgram' is not used [-Wunused-private-field]
+    GLuint mProgram;
+           ^
+1 warning generated.
+[17/29] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/Bench.cpp.o
+[18/29] Building CXX object CMakeFiles/gles3jni.dir/aabb.cpp.o
+[19/29] Building CXX object CMakeFiles/gles3jni.dir/external/libktx/lib/etcdec.cxx.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/lib/etcdec.cxx:1630:8: warning: unused variable 'output' [-Wunused-variable]
+        uint8 output=0;
+              ^
+1 warning generated.
+[20/29] Building CXX object CMakeFiles/gles3jni.dir/utils/CheckGLError.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/CheckGLError.cpp:24:10: warning: non-portable path to file '"assert.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "Assert.h"
+         ^~~~~~~~~~
+         "assert.h"
+1 warning generated.
+[21/29] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/Timer.cpp.o
+[22/29] Building CXX object CMakeFiles/gles3jni.dir/utils/ComboShader.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/ComboShader.cpp:26:35: warning: missing terminating '"' character [-Winvalid-pp-token]
+#include "Common/Include/common.h""
+                                  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/ComboShader.cpp:26:35: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "Common/Include/common.h""
+                                  ^
+                                  //
+2 warnings generated.
+[23/29] Building CXX object CMakeFiles/gles3jni.dir/LightGrid.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/LightGrid.cpp:198:24: warning: unused variable 'offset' [-Wunused-variable]
+              uint32_t offset = GRID_OFFSETS(x,y);
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/LightGrid.cpp:197:24: warning: unused variable 'count' [-Wunused-variable]
+              uint32_t count = GRID_COUNTS(x,y);
+                       ^
+2 warnings generated.
+[24/29] Building CXX object CMakeFiles/gles3jni.dir/utils/SimpleShader.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:29:10: warning: non-portable path to file '"CheckGLError.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "CheckGlError.h"
+         ^~~~~~~~~~~~~~~~
+         "CheckGLError.h"
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:33:
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/type_ptr.hpp:63:
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/../gtc/quaternion.hpp:402:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/quaternion.inl:621:11: warning: GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message. [-W#pragma-messages]
+#               pragma message("GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.")
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/quaternion.inl:648:11: warning: GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message. [-W#pragma-messages]
+#               pragma message("GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.")
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/quaternion.inl:662:11: warning: GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message. [-W#pragma-messages]
+#               pragma message("GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.")
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/quaternion.inl:676:11: warning: GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message. [-W#pragma-messages]
+#               pragma message("GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.")
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/quaternion.inl:806:11: warning: GLM: angle function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message. [-W#pragma-messages]
+#               pragma message("GLM: angle function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.")
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\glm/gtc/quaternion.inl:836:11: warning: GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message. [-W#pragma-messages]
+#               pragma message("GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.")
+                       ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:43:9: warning: 'ASSERT' macro redefined [-Wmacro-redefined]
+#define ASSERT(_condition_)
+        ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/CheckGlError.h:51:9: note: previous definition is here
+#define ASSERT(x)
+        ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:105:27: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if (*nextLine == '\r' && *endl == '\n' || *nextLine == '\n' && *endl == '\r')
+        ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~ ~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:105:27: note: place parentheses around the '&&' expression to silence this warning
+    if (*nextLine == '\r' && *endl == '\n' || *nextLine == '\n' && *endl == '\r')
+                          ^
+        (                                 )
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:105:65: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if (*nextLine == '\r' && *endl == '\n' || *nextLine == '\n' && *endl == '\r')
+                                           ~~ ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/SimpleShader.cpp:105:65: note: place parentheses around the '&&' expression to silence this warning
+    if (*nextLine == '\r' && *endl == '\n' || *nextLine == '\n' && *endl == '\r')
+                                                                ^
+                                              (                                 )
+10 warnings generated.
+[25/29] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/Renderer.cpp.o
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:16:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\tiled_shading.h:17:10: warning: non-portable path to file '"utils/CheckGLError.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "utils/CheckGlError.h"
+         ^~~~~~~~~~~~~~~~~~~~~~
+         "utils/CheckGLError.h"
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\tiled_shading.h:36:10: warning: non-portable path to file '"Common/Include/Bench.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "Common/Include/bench.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+         "Common/Include/Bench.h"
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\tiled_shading.h:114:22: warning: 'changeViews' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+        virtual void changeViews(float x, float y);
+                     ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/bench.h:22:18: note: overridden virtual function is here
+    virtual void changeViews(float x, float y) = 0;
+                 ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:106:19: warning: 'auto_ptr<chag::tiled_shading_app>' is deprecated [-Wdeprecated-declarations]
+    mBench = std::auto_ptr<tiled_shading_app>(new tiled_shading_app(mWidth, mHeight, myPossibleLights, xPos, yPos));
+                  ^
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\memory:2194:28: note: 'auto_ptr<chag::tiled_shading_app>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:127:27: warning: 'auto_ptr<chag::tiled_shading_app>' is deprecated [-Wdeprecated-declarations]
+            mBench = std::auto_ptr<tiled_shading_app>(new tiled_shading_app(mWidth, mHeight, myPossibleLights, xPos, yPos));
+                          ^
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\memory:2194:28: note: 'auto_ptr<chag::tiled_shading_app>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+C:/Users/JY/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:123:17: warning: 12 enumeration values not handled in switch: 'BENCH_NONE', 'BENCH_TESSELLATION', 'BENCH_SIZE'... [-Wswitch]
+        switch (mBenchType) {
+                ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:143:39: warning: unused variable 'elapsed_seconds' [-Wunused-variable]
+        std::chrono::duration<double> elapsed_seconds = mBenchEndTime - mBenchStartTime;
+                                      ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:219:28: warning: unused variable 'nextBench' [-Wunused-variable]
+                BENCH_TYPE nextBench = getNextBench();
+                           ^
+8 warnings generated.
+[26/29] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/model_obj.cpp.o
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:452:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:453:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f,
+        ^~~~~~~~~~
+        {         }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:454:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:480:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:481:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f,
+        ^~~~~~~~~~
+        {         }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:482:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:483:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:518:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:519:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f,
+        ^~~~~~~~~~
+        {         }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:520:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:521:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:554:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:555:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f,
+        ^~~~~~~~~~
+        {         }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:556:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f,
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:557:9: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        0.0f, 0.0f, 0.0f
+        ^~~~~~~~~~~~~~~~
+        {               }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:1054:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+            0.2f, 0.2f, 0.2f, 1.0f,
+            ^~~~~~~~~~~~~~~~~~~~~~
+            {                     }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:1055:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+            0.8f, 0.8f, 0.8f, 1.0f,
+            ^~~~~~~~~~~~~~~~~~~~~~
+            {                     }
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/model_obj.cpp:1056:13: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+            0.0f, 0.0f, 0.0f, 1.0f,
+            ^~~~~~~~~~~~~~~~~~~~~~
+            {                     }
+18 warnings generated.
+[27/29] Building CXX object CMakeFiles/gles3jni.dir/tiled_shading.cpp.o
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:17:10: warning: non-portable path to file '"utils/CheckGLError.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "utils/CheckGlError.h"
+         ^~~~~~~~~~~~~~~~~~~~~~
+         "utils/CheckGLError.h"
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:36:10: warning: non-portable path to file '"Common/Include/Bench.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "Common/Include/bench.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+         "Common/Include/Bench.h"
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:114:22: warning: 'changeViews' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+        virtual void changeViews(float x, float y);
+                     ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/bench.h:22:18: note: overridden virtual function is here
+    virtual void changeViews(float x, float y) = 0;
+                 ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:100:17: warning: unused variable 'q3' [-Wunused-variable]
+    const float q3[] = {
+                ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:355:13: warning: enumeration value 'RM_Max' not handled in switch [-Wswitch]
+    switch (g_renderMethod)
+            ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:658:18: warning: unused variable 'fps' [-Wunused-variable]
+    static float fps = frame / second;
+                 ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:640:15: warning: unused variable 'cameraUp' [-Wunused-variable]
+    glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);
+              ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:632:8: warning: variable 'beforey' is uninitialized when used here [-Wuninitialized]
+    if(beforey != currentY){
+       ^~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:625:18: note: initialize the variable 'beforey' to silence this warning
+    float beforey;
+                 ^
+                  = 0.0
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:629:8: warning: variable 'beforeX' is uninitialized when used here [-Wuninitialized]
+    if(beforeX != currentY) {
+       ^~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:624:18: note: initialize the variable 'beforeX' to silence this warning
+    float beforeX;
+                 ^
+                  = 0.0
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1159:67: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1162:75: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1173:59: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_UNSUPPORTED\n", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1176:60: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "Unknown framebuffer problem","%d", glCheckFramebufferStatus(GL_FRAMEBUFFER));
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1179:63: warning: data argument not used by format string [-Wformat-extra-args]
+        LogMessage ("POTT", "Error: bad frame buffer config", "");
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1298:67: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1301:75: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1312:59: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_UNSUPPORTED\n", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1315:60: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "Unknown framebuffer problem","%d", glCheckFramebufferStatus(GL_FRAMEBUFFER));
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1318:63: warning: data argument not used by format string [-Wformat-extra-args]
+        LogMessage ("POTT", "Error: bad frame buffer config", "");
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp\Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1405:55: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Position, "position");
+                                                      ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1406:53: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Normal, "normalIn");
+                                                    ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1407:55: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_TexCoord, "texCoordIn");
+                                                      ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1408:54: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Tangent, "tangentIn");
+                                                     ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1409:56: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Bitangent, "bitangentIn");
+                                                       ^
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:18:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/GlBufferObject.h:39:22: warning: field 'm_id' will be initialized after field 'm_elements' [-Wreorder-ctor]
+  GlBufferObject() : m_id(0), m_elements(0) { } 
+                     ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:55:20: note: in instantiation of member function 'GlBufferObject<glm::detail::tvec4<float, glm::highp>>::GlBufferObject' requested here
+tiled_shading_app::tiled_shading_app(int width, int height, int num, float x, float y)
+                   ^
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:18:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/GlBufferObject.h:39:22: warning: field 'm_id' will be initialized after field 'm_elements' [-Wreorder-ctor]
+  GlBufferObject() : m_id(0), m_elements(0) { } 
+                     ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:55:20: note: in instantiation of member function 'GlBufferObject<chag::tiled_shading_app::ShaderGlobals_Std140>::GlBufferObject' requested here
+tiled_shading_app::tiled_shading_app(int width, int height, int num, float x, float y)
+                   ^
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:185:14: warning: private field 'g_showLights' is not used [-Wunused-private-field]
+        bool g_showLights = false;
+             ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:186:14: warning: private field 'g_showLightGrid' is not used [-Wunused-private-field]
+        bool g_showLightGrid = false;
+             ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:187:13: warning: private field 'g_showGBuffer' is not used [-Wunused-private-field]
+        int g_showGBuffer = 0;
+            ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:188:14: warning: private field 'g_showInfo' is not used [-Wunused-private-field]
+        bool g_showInfo = false;
+             ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:196:18: warning: private field 'g_maxMsaaSamples' is not used [-Wunused-private-field]
+        uint32_t g_maxMsaaSamples = 0;
+                 ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:210:16: warning: private field 'g_forwardTargetTexture' is not used [-Wunused-private-field]
+        GLuint g_forwardTargetTexture = 0;
+               ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:221:16: warning: private field 'g_vao' is not used [-Wunused-private-field]
+        GLuint g_vao;
+               ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:236:16: warning: private field 'g_lightColorTexture' is not used [-Wunused-private-field]
+        GLuint g_lightColorTexture = 0;
+               ^
+34 warnings generated.
+[28/29] Building CXX object CMakeFiles/gles3jni.dir/OBJModel.cpp.o
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/OBJModel.cpp:33:
+In file included from C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/OBJModel.h:38:
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/utils/GlBufferObject.h:39:22: warning: field 'm_id' will be initialized after field 'm_elements' [-Wreorder-ctor]
+  GlBufferObject() : m_id(0), m_elements(0) { } 
+                     ^
+C:/Users/JY/Downloads/gles3jni (5)/app/src/main/cpp/OBJModel.cpp:57:11: note: in instantiation of member function 'GlBufferObject<OBJModel::MaterialProperties_Std140>::GlBufferObject' requested here
+OBJModel::OBJModel(std::string resPath) :
+          ^
+1 warning generated.
+[29/29] Linking CXX shared library "C:\Users\JY\Downloads\gles3jni (5)\app\build\intermediates\cxx\Debug\3r575t5e\obj\armeabi-v7a\libgles3jni.so"

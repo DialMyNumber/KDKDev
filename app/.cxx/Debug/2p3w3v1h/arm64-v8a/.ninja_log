@@ -1,0 +1,65 @@
+# ninja log v5
+878	2442	1696358877	CMakeFiles/gles3jni.dir/Common/Source/Timer.cpp.o	bcfc5b5832223ee3
+7	1385	1696358876	CMakeFiles/gles3jni.dir/aabb.cpp.o	e8125895278e8760
+5	712	1696358875	CMakeFiles/gles3jni.dir/RendererES3.cpp.o	96f6da004c85634e
+2940	3760	1696362469	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+7	4786	1696358879	CMakeFiles/gles3jni.dir/OBJModel.cpp.o	c73e18ba7a6e3bd9
+4	7795	1696362445	CMakeFiles/gles3jni.dir/Common/Source/Renderer.cpp.o	fa324e1d9ed629cc
+2730	3001	1696358877	CMakeFiles/gles3jni.dir/external/libktx/lib/loader.c.o	6fb6c6b15e57de2b
+5	2939	1696362468	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+8	1466	1696358876	CMakeFiles/gles3jni.dir/Common/Source/Bench.cpp.o	e574c9284f472d68
+712	878	1696358875	CMakeFiles/gles3jni.dir/Common/Source/esTransform.cpp.o	d5e2b3fbc8e655a8
+1629	4614	1696358879	CMakeFiles/gles3jni.dir/utils/SimpleShader.cpp.o	adb3571af18277c9
+2588	2730	1696358877	CMakeFiles/gles3jni.dir/external/libktx/lib/checkheader.c.o	f10a6e7c7a7e0f55
+2442	2588	1696358877	CMakeFiles/gles3jni.dir/external/libktx/lib/errstr.c.o	8322cbbdf5b38995
+1386	3611	1696358878	CMakeFiles/gles3jni.dir/utils/ComboShader.cpp.o	1ae032daa326cd53
+3163	3355	1696358878	CMakeFiles/gles3jni.dir/external/libktx/lib/etcunpack.cxx.o	8597a37ecdea2eb1
+710	962	1696358875	CMakeFiles/gles3jni.dir/Common/Source/esShader.cpp.o	82e29ed9b597dbd9
+7	3272	1696358878	CMakeFiles/gles3jni.dir/LightGrid.cpp.o	9b43bafa9348f0f3
+3002	3163	1696358878	CMakeFiles/gles3jni.dir/external/libktx/lib/hashtable.c.o	1e7ac409bd196032
+962	3103	1696358877	CMakeFiles/gles3jni.dir/utils/CheckGLError.cpp.o	405f1ed48f1a2194
+3135	3250	1696358878	CMakeFiles/gles3jni.dir/external/libktx/lib/writer.c.o	a176b31fab5ddcaf
+1466	1629	1696358876	CMakeFiles/gles3jni.dir/utils/Random.cpp.o	f6397a19f9526c2b
+27	10959	1696362271	CMakeFiles/gles3jni.dir/gles3jni.cpp.o	e8a77d69562126a1
+5	710	1696358875	CMakeFiles/gles3jni.dir/RendererES2.cpp.o	19f2a8e7b4ead8c2
+6	820	1696358875	CMakeFiles/gles3jni.dir/android_fopen.c.o	510552727cbe8573
+3103	3169	1696358878	CMakeFiles/gles3jni.dir/external/libktx/lib/swap.c.o	30bf4f3ccc80b671
+1580	3135	1696358878	CMakeFiles/gles3jni.dir/utils/SimpleCamera.cpp.o	adb2ebc139cabd79
+3169	3588	1696358878	CMakeFiles/gles3jni.dir/external/libktx/lib/etcdec.cxx.o	a99b8a8013c8454b
+820	4450	1696358879	CMakeFiles/gles3jni.dir/Common/Source/model_obj.cpp.o	df72ec62743985a4
+6	1580	1696358876	CMakeFiles/gles3jni.dir/Renderer_Tiled_Shading.cpp.o	dc314270421211bb
+6	2927	1696362571	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+2928	3814	1696362572	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+2	8974	1696362633	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+8975	12550	1696362637	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+5	3137	1696362703	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+3137	3771	1696362703	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+4	3081	1696362744	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+3081	3784	1696362744	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+6	3647	1696362778	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+3647	4400	1696362779	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+9	3294	1696362810	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+3295	3907	1696362810	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+3	8089	1696362991	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+8089	11350	1696362994	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+3	2193	1696363023	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+2194	2804	1696363023	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+3	1779	1696363121	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+1780	2261	1696363121	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+3	1649	1696363180	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+1650	2015	1696363180	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+4	3781	1696363199	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+3782	4310	1696363199	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+4	8154	1696363572	CMakeFiles/gles3jni.dir/Common/Source/Renderer.cpp.o	fa324e1d9ed629cc
+4	10708	1696363683	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+10709	15707	1696363687	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+5	2878	1696363701	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+2879	3503	1696363702	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+4	2611	1696363843	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+2612	3406	1696363843	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+5	5023	1696363872	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+5024	5910	1696363873	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+3	10640	1696365070	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+10641	14273	1696365074	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2
+3	2288	1696365219	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	956ae0ba1054e664
+2289	7270	1696365224	/Users/moonjeongho/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/2p3w3v1h/obj/arm64-v8a/libgles3jni.so	2c005c42fcbe6db2

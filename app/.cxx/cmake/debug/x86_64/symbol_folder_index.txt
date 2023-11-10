@@ -1,0 +1,1 @@
+C:\Android\gles3jni4\app\build\intermediates\cmake\debug\obj\x86_64

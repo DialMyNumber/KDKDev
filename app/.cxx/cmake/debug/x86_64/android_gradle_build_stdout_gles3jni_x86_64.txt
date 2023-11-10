@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Android\gles3jni4\app\.cxx\cmake\debug\x86_64'
+ninja: no work to do.

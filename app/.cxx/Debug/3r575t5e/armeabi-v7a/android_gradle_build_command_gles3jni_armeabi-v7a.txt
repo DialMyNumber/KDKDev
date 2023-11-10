@@ -1,0 +1,7 @@
+Executable : C:\Users\JY\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\JY\Downloads\gles3jni (5)\app\.cxx\Debug\3r575t5e\armeabi-v7a
+gles3jni
+jvmArgs : 
+

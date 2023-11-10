@@ -1,0 +1,197 @@
+ninja: Entering directory `/Users/moonjeongho/Downloads/gles3jni (5)/app/.cxx/Debug/2p3w3v1h/x86'
+[1/3] Building CXX object CMakeFiles/gles3jni.dir/tiled_shading.cpp.o
+FAILED: CMakeFiles/gles3jni.dir/tiled_shading.cpp.o 
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgles3jni_EXPORTS -I"/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp" -I/Users/moonjeongho/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue -I"/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/utils" -I"/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/external/libktx/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -fno-rtti -fno-exceptions -Wall -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/gles3jni.dir/tiled_shading.cpp.o -MF CMakeFiles/gles3jni.dir/tiled_shading.cpp.o.d -o CMakeFiles/gles3jni.dir/tiled_shading.cpp.o -c '/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp'
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:17:10: warning: non-portable path to file '"utils/CheckGLError.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "utils/CheckGlError.h"
+         ^~~~~~~~~~~~~~~~~~~~~~
+         "utils/CheckGLError.h"
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:36:10: warning: non-portable path to file '"Common/Include/Bench.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "Common/Include/bench.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+         "Common/Include/Bench.h"
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:99:17: warning: unused variable 'q3' [-Wunused-variable]
+    const float q3[] = {
+                ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:349:13: warning: enumeration value 'RM_Max' not handled in switch [-Wswitch]
+    switch (g_renderMethod)
+            ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:616:14: warning: unused variable 'y' [-Wunused-variable]
+    float x, y = 0.0f;
+             ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:626:18: warning: unused variable 'fps' [-Wunused-variable]
+    static float fps = frame / second;
+                 ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:616:11: warning: unused variable 'x' [-Wunused-variable]
+    float x, y = 0.0f;
+          ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1128:67: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1131:75: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1142:59: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_UNSUPPORTED\n", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1145:60: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "Unknown framebuffer problem","%d", glCheckFramebufferStatus(GL_FRAMEBUFFER));
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1148:63: warning: data argument not used by format string [-Wformat-extra-args]
+        LogMessage ("POTT", "Error: bad frame buffer config", "");
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1267:67: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1270:75: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1281:59: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "FRAMEBUFFER_UNSUPPORTED\n", "");
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1284:60: warning: data argument not used by format string [-Wformat-extra-args]
+                LogMessage ("POTT", "Unknown framebuffer problem","%d", glCheckFramebufferStatus(GL_FRAMEBUFFER));
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1287:63: warning: data argument not used by format string [-Wformat-extra-args]
+        LogMessage ("POTT", "Error: bad frame buffer config", "");
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Include/common.h:9:81: note: expanded from macro 'LogMessage'
+#define LogMessage(LOG_TAG, ...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                                ^~~~~~~~~~~
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1374:55: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Position, "position");
+                                                      ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1375:53: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Normal, "normalIn");
+                                                    ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1376:55: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_TexCoord, "texCoordIn");
+                                                      ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1377:54: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Tangent, "tangentIn");
+                                                     ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:1378:56: warning: ISO C++11 does not allow conversion from string literal to 'GLchar *' (aka 'char *') [-Wwritable-strings]
+    shader->bindAttribLocation(OBJModel::AA_Bitangent, "bitangentIn");
+                                                       ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2005:58: error: use of undeclared identifier 'fps'; did you mean 'ffs'?
+    jni->CallVoidMethod(app_->activity->clazz, methodID, fps);
+                                                         ^~~
+                                                         ffs
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/strings.h:81:29: note: 'ffs' declared here
+__BIONIC_STRINGS_INLINE int ffs(int __n) {
+                            ^
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:18:
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/utils/GlBufferObject.h:39:22: warning: field 'm_id' will be initialized after field 'm_elements' [-Wreorder-ctor]
+  GlBufferObject() : m_id(0), m_elements(0) { } 
+                     ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:55:20: note: in instantiation of member function 'GlBufferObject<glm::detail::tvec4<float, glm::highp>>::GlBufferObject' requested here
+tiled_shading_app::tiled_shading_app(int width, int height, int num)
+                   ^
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:18:
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/utils/GlBufferObject.h:39:22: warning: field 'm_id' will be initialized after field 'm_elements' [-Wreorder-ctor]
+  GlBufferObject() : m_id(0), m_elements(0) { } 
+                     ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:55:20: note: in instantiation of member function 'GlBufferObject<chag::tiled_shading_app::ShaderGlobals_Std140>::GlBufferObject' requested here
+tiled_shading_app::tiled_shading_app(int width, int height, int num)
+                   ^
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.cpp:2:
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:183:14: warning: private field 'g_showLights' is not used [-Wunused-private-field]
+        bool g_showLights = false;
+             ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:184:14: warning: private field 'g_showLightGrid' is not used [-Wunused-private-field]
+        bool g_showLightGrid = false;
+             ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:185:13: warning: private field 'g_showGBuffer' is not used [-Wunused-private-field]
+        int g_showGBuffer = 0;
+            ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:186:14: warning: private field 'g_showInfo' is not used [-Wunused-private-field]
+        bool g_showInfo = false;
+             ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:194:18: warning: private field 'g_maxMsaaSamples' is not used [-Wunused-private-field]
+        uint32_t g_maxMsaaSamples = 0;
+                 ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:208:16: warning: private field 'g_forwardTargetTexture' is not used [-Wunused-private-field]
+        GLuint g_forwardTargetTexture = 0;
+               ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:219:16: warning: private field 'g_vao' is not used [-Wunused-private-field]
+        GLuint g_vao;
+               ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:234:16: warning: private field 'g_lightColorTexture' is not used [-Wunused-private-field]
+        GLuint g_lightColorTexture = 0;
+               ^
+32 warnings and 1 error generated.
+[2/3] Building CXX object CMakeFiles/gles3jni.dir/Common/Source/Renderer.cpp.o
+In file included from /Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:16:
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:17:10: warning: non-portable path to file '"utils/CheckGLError.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "utils/CheckGlError.h"
+         ^~~~~~~~~~~~~~~~~~~~~~
+         "utils/CheckGLError.h"
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/tiled_shading.h:36:10: warning: non-portable path to file '"Common/Include/Bench.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "Common/Include/bench.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+         "Common/Include/Bench.h"
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:106:19: warning: 'auto_ptr<chag::tiled_shading_app>' is deprecated [-Wdeprecated-declarations]
+    mBench = std::auto_ptr<tiled_shading_app>(new tiled_shading_app(mWidth, mHeight, myPossibleLights));
+                  ^
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory:2194:28: note: 'auto_ptr<chag::tiled_shading_app>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:128:27: warning: 'auto_ptr<chag::tiled_shading_app>' is deprecated [-Wdeprecated-declarations]
+            mBench = std::auto_ptr<tiled_shading_app>(new tiled_shading_app(mWidth, mHeight, myPossibleLights));
+                          ^
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory:2194:28: note: 'auto_ptr<chag::tiled_shading_app>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/Users/moonjeongho/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:124:17: warning: 12 enumeration values not handled in switch: 'BENCH_NONE', 'BENCH_TESSELLATION', 'BENCH_SIZE'... [-Wswitch]
+        switch (mBenchType) {
+                ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:144:39: warning: unused variable 'elapsed_seconds' [-Wunused-variable]
+        std::chrono::duration<double> elapsed_seconds = mBenchEndTime - mBenchStartTime;
+                                      ^
+/Users/moonjeongho/Downloads/gles3jni (5)/app/src/main/cpp/Common/Source/Renderer.cpp:220:28: warning: unused variable 'nextBench' [-Wunused-variable]
+                BENCH_TYPE nextBench = getNextBench();
+                           ^
+7 warnings generated.
+ninja: build stopped: subcommand failed.

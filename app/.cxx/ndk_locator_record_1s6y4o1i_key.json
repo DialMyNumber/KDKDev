@@ -1,0 +1,16 @@
+{
+  "ndkVersionFromDsl": "22.1.7171670",
+  "sdkFolder": "C:\\Android\\SDK",
+  "sideBySideNdkFolderNames": [
+    "22.1.7171670",
+    "25.1.8937393",
+    "25.2.9519653",
+    "26.0.10792818",
+    "assimp",
+    "glad",
+    "GLFW",
+    "glm",
+    "KHR",
+    "learnopengl"
+  ]
+}

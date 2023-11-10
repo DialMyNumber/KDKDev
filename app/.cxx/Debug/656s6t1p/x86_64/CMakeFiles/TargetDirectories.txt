@@ -1,0 +1,3 @@
+C:/Users/PC/Desktop/asd/ttt/gles3jni (5)/app/.cxx/Debug/656s6t1p/x86_64/CMakeFiles/gles3jni.dir
+C:/Users/PC/Desktop/asd/ttt/gles3jni (5)/app/.cxx/Debug/656s6t1p/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/asd/ttt/gles3jni (5)/app/.cxx/Debug/656s6t1p/x86_64/CMakeFiles/rebuild_cache.dir

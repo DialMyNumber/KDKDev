@@ -1,0 +1,3 @@
+C:/Users/JY/Downloads/gles3jni (5)/app/.cxx/Debug/3r575t5e/x86/CMakeFiles/gles3jni.dir
+C:/Users/JY/Downloads/gles3jni (5)/app/.cxx/Debug/3r575t5e/x86/CMakeFiles/edit_cache.dir
+C:/Users/JY/Downloads/gles3jni (5)/app/.cxx/Debug/3r575t5e/x86/CMakeFiles/rebuild_cache.dir

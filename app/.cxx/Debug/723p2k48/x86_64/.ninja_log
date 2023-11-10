@@ -1,0 +1,30 @@
+# ninja log v5
+12	215	718664370	CMakeFiles/gles3jni.dir/android_fopen.c.o	4dab17647e35c491
+1	300	718664370	CMakeFiles/gles3jni.dir/RendererES2.cpp.o	125d0c05de96c0b3
+5	330	718664370	CMakeFiles/gles3jni.dir/RendererES3.cpp.o	eecfc36f35c24272
+24	451	718664370	CMakeFiles/gles3jni.dir/Common/Source/esShader.cpp.o	6d0c2de63cfa17c2
+122	524	718664370	CMakeFiles/gles3jni.dir/Common/Source/esTransform.cpp.o	cc1dc312ed656d67
+300	585	718664370	CMakeFiles/gles3jni.dir/utils/Random.cpp.o	fe3b6e52b9b05657
+452	596	718664370	CMakeFiles/gles3jni.dir/external/libktx/lib/errstr.c.o	68fcd0756474e1ae
+330	620	718664370	CMakeFiles/gles3jni.dir/external/libktx/lib/loader.c.o	228af5c18059dba8
+138	707	718664370	CMakeFiles/gles3jni.dir/gles3jni.cpp.o	eb0744713e68f20
+524	727	718664370	CMakeFiles/gles3jni.dir/external/libktx/lib/checkheader.c.o	bc8a1dd479000d27
+597	736	718664371	CMakeFiles/gles3jni.dir/external/libktx/lib/swap.c.o	5776c42e2ed8094b
+621	803	718664371	CMakeFiles/gles3jni.dir/external/libktx/lib/writer.c.o	275c361f26a15f1c
+585	825	718664371	CMakeFiles/gles3jni.dir/external/libktx/lib/hashtable.c.o	33e2131f7f43b0e3
+20	933	718664371	CMakeFiles/gles3jni.dir/Renderer_Tiled_Shading.cpp.o	52665c94a9c21813
+35	968	718664371	CMakeFiles/gles3jni.dir/Common/Source/Bench.cpp.o	a623b3e11d1034e9
+173	980	718664371	CMakeFiles/gles3jni.dir/utils/SimpleCamera.cpp.o	929fcbb5da44cad5
+728	987	718664371	CMakeFiles/gles3jni.dir/external/libktx/lib/etcunpack.cxx.o	eedcafc06912c03f
+707	1037	718664371	CMakeFiles/gles3jni.dir/external/libktx/lib/etcdec.cxx.o	81bcf9962bb8de5
+51	1058	718664371	CMakeFiles/gles3jni.dir/aabb.cpp.o	cd3b5befd82e948d
+89	1170	718664371	CMakeFiles/gles3jni.dir/Common/Source/Timer.cpp.o	51b7d84571b610d
+116	1295	718664371	CMakeFiles/gles3jni.dir/utils/CheckGLError.cpp.o	1dc826e7908d05d4
+193	1334	718664371	CMakeFiles/gles3jni.dir/utils/ComboShader.cpp.o	c3780985a41ac7d8
+16	1375	718664371	CMakeFiles/gles3jni.dir/LightGrid.cpp.o	d7971ec0185d3d0e
+129	1699	718664372	CMakeFiles/gles3jni.dir/Common/Source/model_obj.cpp.o	e9ceb41b05b62f83
+216	1784	718664372	CMakeFiles/gles3jni.dir/utils/SimpleShader.cpp.o	25c67f77291538cd
+72	1832	718664372	CMakeFiles/gles3jni.dir/Common/Source/Renderer.cpp.o	c159d4099b825bad
+8	1921	718664372	CMakeFiles/gles3jni.dir/tiled_shading.cpp.o	de95ae5d7ae09cb7
+29	2070	718664372	CMakeFiles/gles3jni.dir/OBJModel.cpp.o	a7cf0f372730a951
+2071	2170	718664372	C:/Users/JY/Downloads/gles3jni (5)/app/build/intermediates/cxx/Debug/723p2k48/obj/x86_64/libgles3jni.so	53f0555a2487876c
